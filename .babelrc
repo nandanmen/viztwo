@@ -1,0 +1,9 @@
+{
+  "presets": ["next/babel"],
+  "overrides": [
+    {
+      "test": "algorithms/**/*.impl.js",
+      "plugins": ["./lib/transform.js"]
+    }
+  ]
+}
